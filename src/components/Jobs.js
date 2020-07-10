@@ -27,7 +27,7 @@ const Jobs = () => {
   } = data
   const [value, setValue] = React.useState(0)
   const { company, position, date, description } = jobs[value]
-  console.log(company, position, date, description)
+  // console.log(company, position, date, description)
   return (
     <section className="section jobs">
       <Title title="experience"></Title>
