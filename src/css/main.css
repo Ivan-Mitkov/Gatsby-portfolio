@@ -619,6 +619,7 @@ Jobs
   .active-btn {
     box-shadow: -2px 0 var(--clr-primary-5);
   }
+ 
   .job-btn:hover {
     box-shadow: -2px 0 var(--clr-primary-5);
   }

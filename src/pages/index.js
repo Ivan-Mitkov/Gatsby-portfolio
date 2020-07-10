@@ -7,6 +7,12 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 export default () => {
-  return <Layout>index page</Layout>
+  return (
+    <Layout>
+      <Hero />
+      <Services />
+      <Jobs />
+    </Layout>
+  )
 }
 // ...GatsbyImageSharpFluid
